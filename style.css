@@ -1,0 +1,363 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+
+header {
+	width: 100%;
+	height: 24px;
+	display: inline-block;
+
+}
+
+#folder-pic {
+	margin: 1px;
+	border-right: 0.7px solid gray;
+	padding-right: 4px;
+}
+
+#p {
+	font-size: 14px;
+	padding-left: 2px;
+	border-bottom: 3px solid white;
+}
+
+#folder-pic-01 {
+	margin: 1px;
+	padding-top: 2px;
+	padding-right: 0px;
+	border-top: 0px solid white;
+}
+
+#arrow-pic {
+	border-right: 0.7px solid gray;
+}
+
+
+
+
+table {
+	margin-top: 4px;
+	border: 0px solid black;
+	border-bottom: 1px solid lightgray;
+	padding: 0px;
+	border-collapse: collapse;
+}
+
+table th {
+	font-weight: normal;
+	min-width: 56px;
+	min-height:23px;
+	font-size: 14px;
+}
+
+.th-hover:hover {
+	background-color: #fdfdff;
+	transition: 0.2s;
+	width: 54px;
+	border: 1px solid #f4f4f4;
+	border-bottom: none;
+}
+
+#arrow-right {
+	z-index: -2;
+}
+
+#adress-bar {
+	width: 1000px;
+	margin-left: 1px;
+	margin-bottom: 5px;
+	background-image: url(document/folder-back.png);
+	background-repeat: no-repeat;
+	height: 21px;
+	border: 0.7px solid lightgray;
+	padding-left: 20px;
+}
+
+#search {
+	margin-left: 11px;
+	width: 220px;
+	border: 0.7px solid lightgray;
+	height: 21px;
+	padding-left: 10px;
+	color: gray;
+	background-image: url(document/search-box.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+#items {
+	font-size: 12px;
+	position: fixed;
+	bottom: 44px;
+	left: 10px;
+	border-right: 0.7px solid lightgray;
+	padding-right: 5px;
+
+}
+
+#p01 {
+	margin-top: 70px;
+}
+
+#scroll {
+	border: 5px solid gray;
+	height: 40%;
+	width: 30%;
+	position: fixed;
+	right: 0px;
+	bottom: 50px;
+	padding: 10px;
+	border-radius: 5px;
+	margin-right: 12px;
+}
+
+#mynav {
+	border-right: 0.7px solid #e6e6e6;
+	width: 175px;
+	font-size: 13px;
+	padding-top: 21px;
+	padding-left: 2px;
+	line-height:  23px;
+	height: 480px;
+	margin-top: 3px;
+	position: fixed;
+	z-index: -1;
+}
+
+#mynav p {
+	width: 166px;
+	padding-left: 33px;
+
+}
+
+#mynav p:hover {
+	background-color: #e5f3ff;
+	display: block;
+}
+
+pre:hover {
+	background-color: #e5f3ff;
+	display: block;
+
+}
+
+#demo1 {
+	padding-top: 1px;
+	width: 166px;
+}
+
+#img1 {
+	display: inline;
+}
+
+#innerdata {
+	display: inline;
+	margin-left: 180px;
+	border: none;
+}
+
+#innerdata th {
+	border: none;
+	border-right: 0.7px solid lightgray;
+	text-align: left;
+	padding-left: 7px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	color: darkblue;
+	font-size: small;
+	margin-top: 12px;
+}
+
+#innerdata th:hover {
+	background-color: #d9ebf9;
+	background-image: url(document/arrow-down.png);
+	background-position: right;
+	background-repeat: no-repeat;
+
+}
+
+table td {
+	padding-left: 10px;
+	height: 22px;
+	vertical-align: middle;
+}
+
+table td:hover {
+	background-color: #d9ebf9;
+}
+
+#td-inner {
+	font-size: small;
+}
+
+#td-inner:hover {
+	background-color: #d9ebf9;
+}
+
+#td-inner:active {
+	border: 1px solid #99d1ff;
+	height: 20px;
+	padding-left: 9px;
+}
+
+#folder-inner {
+	padding-left: 12px;
+	vertical-align: top;
+}
+
+footer{
+	width: 100%;
+	height: 40px;
+	background-color: #000509;
+	position: fixed;
+	bottom: 0;
+	margin: 0px;
+}
+
+.windows-bar:hover {
+	content: url(document/windows-hover.png);
+}
+
+.search-bar:hover {
+	content: url(document/search-hover.png);
+}
+
+.taskview-bar:hover {
+	content: url(document/taskview-hover.png);
+}
+
+
+#startmenu {
+	display: none;
+	color: white;
+	background-color: black;
+	opacity: 0.93;
+	padding: 12px;
+	display: block;
+	z-index: 2;
+	width: 750px;
+	height: 450px;
+	overflow-y: auto;
+	list-style-type: none;
+	position: fixed;
+	bottom: 40px;
+	display: none;
+	font-size: 20px;
+	line-height: 30px
+}
+
+#startmenu p {
+	width: 170px;
+	padding-left: 30px;
+
+}
+
+#startmenu p:hover {
+	background-color: darkgray;
+}
+
+
+
+
+
+/*footer hover*/
+
+.container {
+	position: relative;
+	width: 48px;
+display: inline-block;
+}
+
+.image {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: 0.1s ease;
+	background-color: #008CBA;
+	display: inline-block;
+}
+
+.container:hover .overlay {
+	opacity: 1;
+	display: inline-block;
+}
+
+.text {
+	position: absolute;
+	top: 54%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#arrowright {
+	position: fixed;
+	margin-top: -100px;
+	margin-left: 100px 
+	z-index: +1;
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
